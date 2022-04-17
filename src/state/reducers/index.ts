@@ -6,3 +6,5 @@ const reduces = combineReducers({
 });
 
 export default reduces;
+
+export type RootState = ReturnType<typeof reduces>;
